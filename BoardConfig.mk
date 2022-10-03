@@ -18,6 +18,29 @@
 
 DEVICE_PATH := device/samsung/j7velte
 
+# SHRP Props
+TARGET_DEVICE := j7velte
+SHRP_PATH := device/samsung/j7velte
+SHRP_DEVICE_CODE := j7velte
+SHRP_MAINTAINER := ItzKaguya
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /sdcard1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
+SHRP_CUSTOM_FLASHLIGHT := true
+SHRP_FONP_1 := /sys/class/camera/flash/rear_torch_flash
+SHRP_FLASH_MAX_BRIGHTNESS := 255
+SHRP_REC := /dev/block/platform/13540000.dwmmc0/by-name/RECOVERY
+SHRP_AB := false
+SHRP_REC_TYPE := treble
+SHRP_DEVICE_TYPE := A/B
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_EXPRESS := true
+SHRP_DARK := true
+LZMA_RAMDISK_TARGETS := recovery
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
