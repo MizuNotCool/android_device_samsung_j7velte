@@ -55,6 +55,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos7870-j7velte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/exynos7870
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 
 # Extracted with libbootimg
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt $(OUT_DIR)/target/product/j7velte/obj/KERNEL_OBJ/arch/$(TARGET_ARCH)/boot/dtb.img
