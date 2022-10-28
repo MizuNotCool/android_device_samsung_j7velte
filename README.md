@@ -22,4 +22,4 @@ It was announced and released in July 2017.
 ## Device picture
 
 ![Samsung J7 Nxt](https://i.imgur.com/HBYFBI8.jpg)
-.
+
